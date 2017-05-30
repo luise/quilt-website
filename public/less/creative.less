@@ -82,7 +82,6 @@ aside {
         color: @theme-primary;
         .sans-serif-font;
         font-weight: 500;
-        // text-transform: uppercase;
 	color: @theme-primary;
         &:hover,
         &:focus {
@@ -99,7 +98,6 @@ aside {
         > li {
             > a,
             > a:focus {
-                //text-transform: uppercase;
                 font-weight: 500;
                 font-size: 13px;
                 color: @theme-primary;
@@ -168,7 +166,7 @@ header {
     background-position: center;
     background-image: url('../img/O6DXT80.jpg');
     text-align: center;
-    color: white;
+    color: @theme-primary;
     .header-content {
         position: relative;
         text-align: center;
@@ -177,10 +175,8 @@ header {
         .header-content-inner {
             h1 {
                 font-weight: 700;
-                // text-transform: uppercase;
                 margin-top: 0;
                 margin-bottom: 0;
-                // font-size: 30px;
                 font-size: 70px;
             }
             hr {
@@ -208,7 +204,8 @@ header {
                 margin-left: auto;
                 margin-right: auto;
                 h1 {
-                    font-size: 130px; // 50px;
+                    color: white;
+                    font-size: 130px;
                 }
                 p {
                     font-size: 18px;
