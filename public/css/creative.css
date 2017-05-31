@@ -178,6 +178,16 @@ header .header-content .header-content-inner p {
   font-size: 16px;
   margin-bottom: 50px;
 }
+header .header-credit p {
+  min-height: auto;
+  text-align: right;
+  position: relative;
+  bottom: 0;
+  right: 10px;
+  font-size: 8px;
+  font-weight: 100;
+  color: rgba(255, 255, 255, 0.08);
+}
 @media (min-width: 768px) {
   header {
     min-height: 100%;
@@ -204,6 +214,21 @@ header .header-content .header-content-inner p {
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
+  }
+  header .header-credit {
+    min-height: 0%;
+    text-align: right;
+    padding: 0px 0px 0px;
+    font-size: 5px;
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  header .header-credit p {
+    font-size: 10px;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.15);
   }
 }
 .section-heading {
